@@ -1,0 +1,31 @@
+{
+  "name": "try-semantic-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo ok",
+    "semantic-release": "semantic-release pre && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melihovv/try-semantic-release.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melihovv/try-semantic-release/issues"
+  },
+  "homepage": "https://github.com/melihovv/try-semantic-release#readme",
+  "dependencies": {
+    "commitizen": "^2.9.5",
+    "cz-conventional-changelog": "^1.2.0",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
